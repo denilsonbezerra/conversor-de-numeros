@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <script src="./src/js/script.js" defer></script>
+
+    <title>Conversor de Números Romanos</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Conversor de Números Romanos</h1>
+    </header>
+
+    <main>
+        <section class="arabico-romano">
+            <h2 class="titulo">Arábico para Romano</h2>
+
+            <div>
+                <label for="input-arabico">Arábico:</label>
+                <input type="number" min="1" max="3999" id="input-arabico">
+                <button type="button" onclick="converterArabicoParaRomano()">Converter</button>
+                <p id="resultado-romano"></p>
+            </div>
+        </section>
+
+        <section class="romano-arabico">
+            <h2 class="titulo">Romano para Arabico</h2>
+
+            <div>
+                <label for="input-romano">Romano:</label>
+                <input type="text" id="input-romano">
+                <button type="button" onclick="converterRomanoParaArabico()">Converter</button>
+                <p id="resultado-arabico"></p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
