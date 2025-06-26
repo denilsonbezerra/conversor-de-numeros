@@ -1,31 +1,34 @@
-# Conversor de Números Romanos
+# Conversor de Números Romanos e Arábicos 🔁
 
-Este é um conversor de números entre o sistema arábico e o sistema romano. Ele permite converter números arábicos para romanos e vice-versa.
+Este projeto consiste em um **conversor bidirecional** entre **números arábicos (decimais)** e **números romanos**. O objetivo principal foi exercitar **lógica condicional, manipulação de strings e eventos com JavaScript**.
 
-## Funcionalidades
+## 🚀 Funcionalidades
 
-- Conversão de números arábicos para números romanos.
-- Conversão de números romanos para números arábicos.
+- Conversão de números arábicos (1 a 3999) para romanos.
+- Conversão de números romanos válidos para arábicos.
+- Validação das entradas e mensagens de erro para valores inválidos.
 
-## Como usar
+## 💻 Tecnologias Utilizadas
 
-1. Acesse o link do site clicando [aqui](https://denilsonbezerra.github.io/conversor-de-numeros/).
-2. Preencha o valor no campo de entrada correspondente à conversão desejada.
-3. Clique no botão "Converter" para obter o resultado da conversão.
-4. O resultado será exibido abaixo do campo de entrada correspondente.
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
-## Limitações
+## 🎮 Como usar
 
-- O conversor suporta apenas números inteiros positivos entre 1 e 3999.
+1. Digite um número decimal (1 a 3999) na caixa "Arábico".
+2. Clique em "Converter" para ver o número romano correspondente.
+3. Ou digite um número romano válido na caixa "Romano" para ver o número decimal.
+4. O resultado aparecerá automaticamente abaixo do campo.
 
-## Exemplo de Uso
+## 🧠 Aprendizados
 
-Suponha que você queira converter o número arábico 25 para o sistema romano:
+- Criação de funções de mapeamento entre sistemas numéricos
+- Manipulação de inputs e tratamento de erros no front-end
+- Interação com o DOM e feedback para o usuário
 
-1. Insira o valor `25` no campo "Arábico" na seção "Arábico para Romano".
-2. Clique no botão "Converter".
-3. O resultado será exibido abaixo do campo "Romano", mostrando `XXV` como resultado.
+## 📷 Screenshot (adicione aqui se quiser mostrar a interface)
 
-## Licença
+---
 
-Este projeto está licenciado sob a [MIT License](./LICENSE).
+✅ Projeto desenvolvido como parte de um desafio técnico. Ideal para consolidar lógica e experiência prática com JS puro.
